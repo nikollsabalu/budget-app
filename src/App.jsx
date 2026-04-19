@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import HomePage from './pages/HomePage';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
         isValidBudget={isValidBudget}
         setIsValidBudget={setIsValidBudget}
       />
+       <Footer />
 
     </div>
 

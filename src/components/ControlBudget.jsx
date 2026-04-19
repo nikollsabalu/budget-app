@@ -108,7 +108,7 @@ const ControlBudget = ({
 
   return (
     <div className={modal ? 'pinUp': ''}>
-      <div className="budgetContainer two-columns">
+      <div className="budgetContainer2 two-columns">
         <div className="budgetFirstColumn">
           <div className="budgetCardContainer">
             <div className="budgetCard">

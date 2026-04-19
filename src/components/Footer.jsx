@@ -8,15 +8,11 @@ const Footer = () => {
   return (
     <div className="footerContainer">
       <div className="item">
-        <div>This project belongs to my personal</div>
-        <a target="_blank" href="https://nikollsabalu.netlify.app/">
-          {" "}
-          P O R T F O L I O
-        </a>
+        <div>This project belongs to my personal</div> <a target="_blank" href="https://nikoll.dev/"> P O R T F O L I O </a>
       </div>
 
       <div className="footerCopyright item">
-        &#169; {formatYear(year)} - Developed by Nikoll Sabalú
+        &#169; {formatYear(year)} - Nikoll Sabalú
       </div>
 
       <div className="item">

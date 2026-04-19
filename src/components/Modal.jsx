@@ -46,12 +46,13 @@ export const Modal = ({setModal,
 
   return (
     <div className='modal'>
-        <div className='close-modal'>
-            <img src={CloseBtn} alt="Close modal" onClick={hideModal} />
-        </div>
 
         <form className={`container shadow form ${animateModal ? 'animar': ''}`}>
             <legend>{editExpense.name ? 'Edit transaction' : 'New transaction'}</legend>
+                    <div className='close-modal'>
+            <img src={CloseBtn} alt="Close modal" onClick={hideModal} />
+        </div>
+
 
             {message && <message tipo="error"> { message }</message>}
             <div className='campo'>
